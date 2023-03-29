@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Details</title>
+</head>
+<body>
+{% if details %}
+<h1 align="center"> Welcome to Student Portal Id - {{details.id}}</h1>
+<h4 align="center">NAME - {{details.name}}</h4>
+<h4 align="center">SKILL SET - {{details.skill_set}} </h4>
+{% else %}
+<h4 align="left">No data found against</h4>{{details.id}}
+{% endif %}
+
+
+</body>
+</html>
