@@ -18,6 +18,5 @@ from . import views
 
 urlpatterns = [
     path("info/", views.students_detail, name="students_detail"),
-    path("info/<int:id_>", views.student_details, name="student_details")
-
+    path("info/<int:id_>", views.student_details, name="student_details"),
 ]

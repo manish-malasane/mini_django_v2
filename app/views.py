@@ -18,4 +18,3 @@ def student_details(request, id_):
 def students_detail(request):
     foo = StudentInfo.objects.all()
     return render(request, "app/all_stu_info.html", {"details": foo})
-
